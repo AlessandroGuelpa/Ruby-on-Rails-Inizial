@@ -1,0 +1,10 @@
+<h1>Hello, Word!</h1>
+<h2>Bienvenido nel mio primo blog con Ruby!</h2>
+
+<ul>
+	<% @articles.each do |article| %>
+	<li>
+		<%= article.title %>
+	</li>
+	<% end %>
+</ul>
